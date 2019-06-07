@@ -19,7 +19,7 @@
     },
     {
       "type": "path",
-      "url": "./",
+      "url": "./lib/telluric/ngp-api",
       "options": {
         "symlink": true
       }
@@ -27,7 +27,8 @@
   ],
   "require": {
     "php": ">=5.3.2",
-    "composer/installers": "v1.0.6"
+    "composer/installers": "v1.0.6",
+    "telluric/ngp-api": "@dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

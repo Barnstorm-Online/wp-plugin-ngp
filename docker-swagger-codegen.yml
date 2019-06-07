@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+   composer:
+     image: swaggerapi/swagger-codegen-cli:latest
+     command: generate -i /local/swagger.json -l php -o /local/lib/telluric -c /local/swagger.config.json
+     volumes:
+      - ./:/local
